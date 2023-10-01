@@ -15,6 +15,9 @@ Gray: #555
 
 html {
   font-size: 62.5%;
+  /* only work if there is nothing absolutely 
+  positioned in relation to body */
+  overflow-x: hidden;
 }
 
 body {
@@ -22,6 +25,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 .btn,
